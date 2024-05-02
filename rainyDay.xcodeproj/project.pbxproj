@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E659D08C2BE23A01002BFBE8 /* Museum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659D08B2BE23A01002BFBE8 /* Museum.swift */; };
+		E659D08E2BE23E41002BFBE8 /* MuseumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659D08D2BE23E41002BFBE8 /* MuseumDetailViewController.swift */; };
+		E6F4E7542BE37AD700B9DF08 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F4E7532BE37AD700B9DF08 /* StartViewController.swift */; };
 		E6FEEBF92BE23655004B1E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEBF82BE23655004B1E97 /* AppDelegate.swift */; };
 		E6FEEBFB2BE23655004B1E97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEBFA2BE23655004B1E97 /* SceneDelegate.swift */; };
-		E6FEEBFD2BE23655004B1E97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEBFC2BE23655004B1E97 /* ViewController.swift */; };
 		E6FEEC002BE23655004B1E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FEEBFE2BE23655004B1E97 /* Main.storyboard */; };
 		E6FEEC022BE23656004B1E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6FEEC012BE23656004B1E97 /* Assets.xcassets */; };
 		E6FEEC052BE23656004B1E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FEEC032BE23656004B1E97 /* LaunchScreen.storyboard */; };
+		E6FEEC0D2BE236C4004B1E97 /* MuseumTableViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEC0C2BE236C4004B1E97 /* MuseumTableViewTableViewController.swift */; };
+		E6FEEC0F2BE23784004B1E97 /* MuseumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FEEC0E2BE23784004B1E97 /* MuseumTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E659D08B2BE23A01002BFBE8 /* Museum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Museum.swift; sourceTree = "<group>"; };
+		E659D08D2BE23E41002BFBE8 /* MuseumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumDetailViewController.swift; sourceTree = "<group>"; };
+		E6F4E7532BE37AD700B9DF08 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		E6FEEBF52BE23655004B1E97 /* rainyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rainyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FEEBF82BE23655004B1E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6FEEBFA2BE23655004B1E97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E6FEEBFC2BE23655004B1E97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6FEEBFF2BE23655004B1E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6FEEC012BE23656004B1E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6FEEC042BE23656004B1E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6FEEC062BE23656004B1E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FEEC0C2BE236C4004B1E97 /* MuseumTableViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumTableViewTableViewController.swift; sourceTree = "<group>"; };
+		E6FEEC0E2BE23784004B1E97 /* MuseumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		E6FEEBF72BE23655004B1E97 /* rainyDay */ = {
 			isa = PBXGroup;
 			children = (
+				E659D08B2BE23A01002BFBE8 /* Museum.swift */,
 				E6FEEBF82BE23655004B1E97 /* AppDelegate.swift */,
 				E6FEEBFA2BE23655004B1E97 /* SceneDelegate.swift */,
-				E6FEEBFC2BE23655004B1E97 /* ViewController.swift */,
+				E659D08D2BE23E41002BFBE8 /* MuseumDetailViewController.swift */,
+				E6FEEC0E2BE23784004B1E97 /* MuseumTableViewCell.swift */,
+				E6FEEC0C2BE236C4004B1E97 /* MuseumTableViewTableViewController.swift */,
+				E6F4E7532BE37AD700B9DF08 /* StartViewController.swift */,
 				E6FEEBFE2BE23655004B1E97 /* Main.storyboard */,
 				E6FEEC012BE23656004B1E97 /* Assets.xcassets */,
 				E6FEEC032BE23656004B1E97 /* LaunchScreen.storyboard */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6FEEBFD2BE23655004B1E97 /* ViewController.swift in Sources */,
+				E6F4E7542BE37AD700B9DF08 /* StartViewController.swift in Sources */,
+				E6FEEC0D2BE236C4004B1E97 /* MuseumTableViewTableViewController.swift in Sources */,
+				E6FEEC0F2BE23784004B1E97 /* MuseumTableViewCell.swift in Sources */,
 				E6FEEBF92BE23655004B1E97 /* AppDelegate.swift in Sources */,
+				E659D08E2BE23E41002BFBE8 /* MuseumDetailViewController.swift in Sources */,
 				E6FEEBFB2BE23655004B1E97 /* SceneDelegate.swift in Sources */,
+				E659D08C2BE23A01002BFBE8 /* Museum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
